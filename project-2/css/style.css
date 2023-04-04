@@ -1,0 +1,430 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'josefin sans',sans-serif;
+    box-sizing: border-box;
+    background-color:#000;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    
+    
+    
+}
+.logo{
+    color: white;
+    font-size: 60px;
+    /* letter-spacing: 1px; */
+    cursor: pointer;
+    /* font-weight: bold; */
+    font-family: 'Times New Roman', Times, serif;
+    color: #f90048;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 15px;
+}
+nav ul li a{
+color: black;
+text-decoration: none;
+font-weight: bold;
+text-transform: capitalize;
+font-size: 20px;
+color: white;
+}
+nav ul li a:hover{
+    color: #f9004d;
+    transition: .4s;
+}
+.pic{
+    float: right;
+    width: 100%;
+    margin-top: 6%;
+}
+.pos-cen{
+    position: absolute;
+    /* width:70% ; */
+    left: 60%;
+  
+    
+    
+}
+.btn{
+    background-color: #f90048;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top: 65%;
+    left: 8%;
+    transform: translateY(-50%);
+    font-weight: bold;
+    /* font-size: 30px; */
+    /* color: white; */
+}
+h1{
+    color: white;
+    margin: 20px 0 20px;
+    font-style: italic;
+    font-size: 70px;
+    font-family: 'Kaushan Script';
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 40px;
+    font-style: italic;
+}
+h4{
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: oblique;
+}
+.newsletter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+    
+}
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #f9004d;
+    outline: none;
+    border-radius: 30px;
+}
+.newsletter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 20px;
+    background-color:#f90048;
+    color: white;
+
+    box-shadow: 0px 0px 5px #000,0px 0px 15px #858585;
+    top: 7px;
+    right: 15px;
+    bottom: 6px;
+}
+.girl{
+    margin-top: 700px;
+    margin-left:150px;
+    border-radius: 50%;
+}
+.text{
+    width: 500px;
+    margin-left: 600px;
+    margin-top: -430px;
+}
+.bp{
+    margin-left: 600px;
+    margin-bottom: 1000px;
+    background-color: #f90048;
+    color:white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 15px 35px;
+    border-radius: 30px;
+    transition: .4s;
+    margin-top: 50px;
+}
+.bp:hover {
+background-color: transparent;
+border: 2px solid #f90048;
+cursor: pointer;
+}
+span{
+    color: white;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 85px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+strong{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+    font-family: bold;
+    margin-left: 10px;
+}
+italic{
+    margin-bottom: 30px;
+    color: #f90048;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+bold{
+    color:palevioletred;
+    letter-spacing: 4px;
+    line-height: 30px;
+    font-size: 20px;
+    margin-bottom: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 100px;
+    margin-right: 500px;
+}
+.service{
+    /* background: #101101; */
+    width: 100%;
+    padding: 10px 0px;
+    margin-top: -1000px;
+    /* color: black; */
+}
+.title h2 {
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    color: pink;
+}
+.icon{
+    height: 80px;
+    width: 80;
+}
+.card{
+    width: 320px;
+    height: 360px;
+    padding: 25px 35px;
+    background:white;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+}
+.card image{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #f90048;
+}
+.web{
+    color:#f90048;
+    font-size: 23px;
+    margin-bottom: 5px;
+    background-color: white;
+font-weight: bold;
+}
+.pra p{
+    color: black;
+    font-size: 17px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    background-color: white;
+    font-weight: bold;
+    
+
+}
+
+.card .button{
+    background-color: #f9004d;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: transform .4s;
+   
+}
+.button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+.pg{
+    /* background-color: black; */
+    line-height: 27px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    
+}
+
+.contact-me{
+    align-items: center;
+    width: 100%;
+    height: 170px;
+    color: white;
+    margin-top: 100px;
+    font-size: 35px;
+    justify-content: center;
+    font-weight: bold;
+    display: flex;
+    background-color:rgba(128, 128, 128, 0.13);
+    flex-direction: column;
+    
+
+}
+.cotact-me p{
+    
+    background-color:rgba(128, 128, 128, 0.13);
+    font-size: 20px;
+    /* font-weight: bold; */
+    /* margin-bottom: 2px; */
+    margin-top: 400px;
+    
+    
+}
+.contact-me .button-two{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 1px solid transparent;
+    /* font-weight: bold; */
+    /* padding: 9px 10px; */
+    border-radius: 25px;
+    transition: transform .4s;
+    margin-top: 20px;
+    padding: 2px 5px;
+}
+.contact-me .button-two:hover{
+    background-color:transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+    
+}
+footer {
+    background-color:  rgba(128, 128, 128, 0.013);;
+    position: absolute;
+    height: auto;
+    width: 100vw;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 40px;
+    color: white;
+}
+  .footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color:  rgba(128, 128, 128, 0.0.13);;
+  }
+  .footer-content h3{
+    font-size:50px;
+    width: 100%;
+    text-transform: uppercase;
+    line-height: 3rem;
+    background-color: rgba(128, 128, 128, 0.13);
+    color: #f9004d;
+    font-weight: bold;
+    margin-top: 30px;
+    padding: 12px 10px;
+  }
+  .footer-content p{
+    width: 100%;
+    margin: 10px auto;
+    line-height: 40px;
+    background-color: rgba(128, 128, 128, 0.13);
+    font-size: 30px;
+    font-style: italic;
+    padding: 12px 10px;
+  }
+  .social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.13);
+    margin: 1rem 0 3rem 0;
+
+  }
+  .social li{
+    margin: 0 10px;
+  }
+  .social a{
+    text-decoration: none;
+    color: white;
+
+
+  }
+  .social a {
+    font-size: 1.1rem; 
+    transition: color .4s ease;
+
+
+  }
+  .social a:hover img{
+    color: #f90048;
+
+
+
+}
+.fb{
+    height: 30px;
+    background-color: white;
+
+}
+.ins{
+    height: 30px;
+    background-color: white;
+}
+.br{
+   height: 30px;
+   background-color: rgba(255, 255, 255, 0.998);
+}
+.footer-bottom{
+    background: rgba(128, 128, 128, 0.028);
+    width: 100;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 30px;
+}
+.footer-bottom p {
+    font-size: 35px;
+    color: white;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    background: rgba(128, 128, 128, 0.028);
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+/* 
+
+
+
+
+
+  
+
+  
+
